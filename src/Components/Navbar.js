@@ -13,15 +13,15 @@ export default function Navbar(props) {
             <div className="flex items-center">
                 <ul className="flex justify-self-auto">
                     <li>
-                        <a className='px-3 text-xl cursor-pointer hover:text-white' href="">{props.title}</a>
+                        <a className='px-3 text-xl cursor-pointer hover:text-white' href="#">{props.title}</a>
                     </li>
 
                     <li>
-                        <a className='px-3 text-lg cursor-pointer hover:text-white' href="/about">{props.aboutText}</a>
+                        <a className='px-3 text-lg cursor-pointer hover:text-white' href="#">{props.aboutText}</a>
                     </li>
 
                     <li>
-                        <a className='px-3 mt-0.5 text-md cursor-pointer hover:text-white' href="">Contact</a>
+                        <a className='px-3 mt-0.5 text-md cursor-pointer hover:text-white' href="#">Contact</a>
                     </li>
                 </ul>
             </div>
