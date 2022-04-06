@@ -48,7 +48,7 @@ function App() {
       <div className="container">
         <TextForm showAlert={showAlert}/>
       </div>
-      {/* <About /> */}
+      {/* <About /> d*/}
     </>
   );
 }
